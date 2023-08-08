@@ -7,6 +7,7 @@ import { Hero } from '../hero';
   styleUrls: ['./hero-detail.component.css']
 })
 export class HeroDetailComponent {
+  // Input property to receive the selected hero from the parent component
   @Input() hero?: Hero;
 }
 

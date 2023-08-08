@@ -1,5 +1,7 @@
+// Import Interfaz with 'id' and 'name'
 import { Hero } from './hero';
 
+// Convert interfaz in class 'Heroes' that con stores an array with data for id and name
 export const HEROES: Hero[] = [
   { id: 12, name: 'Dr. Nice' },
   { id: 13, name: 'Bombasto' },
