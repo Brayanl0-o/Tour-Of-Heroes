@@ -1,14 +1,14 @@
 <div *ngIf="hero">
 
   <!-- Display the hero's name in uppercase along with "Details" -->
-  <h2>{{hero.name | uppercase}} Details</h2>
+  <h2>{{hero.name_hero | uppercase}} Details</h2>
 
   <!-- Display the hero's ID -->
-  <div> <span>id:</span> {{hero.id}}</div>
+  <div> <span>id:</span> {{hero._id}}</div>
 
   <!-- Input field to edit the hero's name -->
   <div>
     <label for="hero-name">Hero name: </label>
-    <input id="hero-name" [(ngModel)]="hero.name" placeholder="name">
+    <input id="hero-name" [(ngModel)]="hero.name_hero" placeholder="name">
   </div>
 </div>
