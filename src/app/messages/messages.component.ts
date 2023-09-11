@@ -1,6 +1,6 @@
 // Import the necessary modules and components.
 import { Component } from '@angular/core';
-import { MessageService } from '../message.service';
+import { MessageService } from '../services/message.service/message.service';
 // Decorator for the MessagesComponent class.
 @Component({
   // Selector to match this component in HTML templates.
